@@ -8,7 +8,6 @@ file1 = open("iris.csv","r")
 reader = csv.reader(file1,delimiter=",")
 
 for row in reader:
-   # i = row[0]
     if float(row[0]) >= 5:
         print(row)
 
